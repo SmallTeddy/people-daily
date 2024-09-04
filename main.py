@@ -68,7 +68,7 @@ def clear_current_line():
 
 def init_download(download_path):
     # for href in tqdm(hrefs, desc='Downloading PDFs', dynamic_ncols=True, leave=True):  # 设置dynamic_ncols为True，leave为True
-    for href in tqdm(hrefs, desc='Downloading PDFs'):  # 使用tqdm包装hrefs
+    # for href in tqdm(hrefs, desc='Downloading PDFs'):  # 使用tqdm包装hrefs
     # 遍历pdf文件链接列表
     for href in tqdm(hrefs, desc='Downloading PDFs', dynamic_ncols=True, leave=True):  # 设置dynamic_ncols为True，leave为True
         # 获取pdf文件详情页链接
